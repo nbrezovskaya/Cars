@@ -16,7 +16,7 @@ public class MainMenu extends BaseEntity {
      * @param subMenu subMenu
      */
     public void navigateTo(Menu menu, Menu subMenu) {
-        Button menuButton = new Button(By.xpath(String.format("//*[contains(@class, 'navbar-item-label') and contains(text(), '%s')]", menu.getName())), menu.getName());
+        Button menuButton = new Button(By.xpath(String.format("//span[text()='%s']", menu.getName())), menu.getName());
         Button subMenuButton = new Button(By.xpath(String.format("//li[a[contains(text(), '%s')]]", subMenu.getName())), subMenu.getName());
         menuButton.click();
         subMenuButton.clickAndWait();
