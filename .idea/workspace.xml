@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="bae55ff8-5fc1-4638-a38e-c00b9188362b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/demo/test/menus/MainMenu.java" afterPath="$PROJECT_DIR$/src/test/java/demo/test/menus/MainMenu.java" />
     </list>
     <ignored path="aqa-framework.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -54,8 +55,8 @@
       <file leaf-file-name="MainMenu.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/demo/test/menus/MainMenu.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7466216">
-              <caret line="28" column="29" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
+            <state vertical-scroll-proportion="0.6891892">
+              <caret line="26" column="63" selection-start-line="26" selection-start-column="63" selection-end-line="26" selection-end-column="63" />
               <folding />
             </state>
           </provider>
@@ -1031,7 +1032,7 @@
       <workItem from="1457604290099" duration="10558000" />
       <workItem from="1457616513718" duration="17000" />
       <workItem from="1457683620120" duration="19000" />
-      <workItem from="1458025664393" duration="551000" />
+      <workItem from="1458025664393" duration="1216000" />
     </task>
     <task id="LOCAL-00001" summary="add log">
       <created>1458025765976</created>
@@ -1063,7 +1064,13 @@
       <option name="project" value="LOCAL" />
       <updated>1458026165005</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add log">
+      <created>1458026235481</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1458026235481</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1099,7 +1106,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="113103000" />
+    <option name="totallyTimeSpent" value="113768000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1720,8 +1727,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/demo/test/menus/MainMenu.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7466216">
-          <caret line="28" column="29" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
+        <state vertical-scroll-proportion="0.6891892">
+          <caret line="26" column="63" selection-start-line="26" selection-start-column="63" selection-end-line="26" selection-end-column="63" />
           <folding />
         </state>
       </provider>

@@ -20,8 +20,11 @@ public class MainMenu extends BaseEntity {
         Button menuButton = new Button(By.xpath(String.format("//span[text()='%s']", menu.getName())), menu.getName());
         logStep("++++++++++++++++++++++++++++++++++++++++++++++");
         Button subMenuButton = new Button(By.xpath(String.format("//li[a[contains(text(), '%s')]]", subMenu.getName())), subMenu.getName());
+        logStep("^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^");
         menuButton.click();
+        logStep("##############################################");
         subMenuButton.clickAndWait();
+        logStep("______________________________________________");
     }
 
     /**
